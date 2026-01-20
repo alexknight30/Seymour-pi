@@ -1,0 +1,17 @@
+# language module dependencies
+# LLM integration for visual understanding
+
+# Core
+numpy>=1.24.0
+torch>=2.0.0
+
+# LLM providers (install based on which you use)
+openai>=1.0.0        # For OpenAI GPT
+anthropic>=0.18.0    # For Anthropic Claude
+# For local LLMs, install Ollama separately: https://ollama.ai
+
+# Optional: for running the full pipeline
+# (these are also in encoders/requirements.txt)
+# opencv-python>=4.8.0
+# open-clip-torch>=2.20.0
+
